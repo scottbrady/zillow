@@ -1,0 +1,17 @@
+#content {
+    position: absolute;
+    }
+    #content .left {
+        left: 0;
+        position: absolute;
+        width: 180px;
+        }
+    #content .center {
+        margin: 0 200px;
+        }
+    #content .right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 200px;
+        }
