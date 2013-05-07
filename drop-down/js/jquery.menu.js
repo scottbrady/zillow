@@ -31,11 +31,9 @@ function(
         },
 
         _closeMenu : function() {
-            // console.log('_closeMenu', this)
             var self = this;
 
             this._closeTimer = setTimeout(function() {
-                // console.log('timer done')
                 self.element
                     .find('ul')
                     .hide();
@@ -43,7 +41,6 @@ function(
         },
 
         _openMenu : function(widget, element) {
-            // console.log('_openMenu', element)
             clearTimeout(widget._closeTimer);
 
             // hide other child menu items
