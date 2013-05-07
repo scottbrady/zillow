@@ -1,0 +1,1 @@
+Code tested in IE 9 on Windows 7, Chrome latest on Mac and Firefox latest on Mac.
