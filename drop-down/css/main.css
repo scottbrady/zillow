@@ -1,9 +1,9 @@
 #cars {
-    width: 100px;
+    width: 150px;
     }
     #cars li {
         list-style: none;
-        margin: 0 10px;
+        margin: 0;
         padding: 0;
         position: relative;
         }
@@ -14,6 +14,7 @@
         padding: 5px 5px;
         margin: 0;
         background-color: #eee;
+        width: 150px;
         }
     #cars ul {
         display: none;
@@ -22,5 +23,7 @@
         position: absolute;
         top: 30px;
         left: 0;
-        width: 200px;
         }
+        #cars ul li {
+            margin-left: 162px;
+            }
